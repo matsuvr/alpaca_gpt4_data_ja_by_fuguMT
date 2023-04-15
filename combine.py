@@ -96,8 +96,6 @@ for s in skip_numbers:
 
     print(line)
 
-#あとはprintしたものを手動コピペで目視確認しながらjsonlファイルに書き込む！ 最後は目視！
-
 # リストに追加された辞書オブジェクトを新しいJSONファイルに書き込む
 with open("alpaca_gpt4_data_ja.json", "w", encoding="utf-8") as f:
     json.dump(merged_data, f, indent=4, ensure_ascii=False)
